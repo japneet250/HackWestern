@@ -1,1 +1,1 @@
-# HackWestern
+# hackwestern
