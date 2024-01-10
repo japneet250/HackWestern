@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "email": "admin@gmail.com",
+      "password": "abc123",
+      "name": "Bob",
+      "premiumStatus": 0
+    },
+    {
+      "email": "anotheradmin@gmail.com",
+      "password": "123abc",
+      "name": "Tiffany",
+      "premiumStatus": 0
+    },
+    {
+      "email": "bella@gmail.com",
+      "password": "Iambella",
+      "name": "Bella",
+      "premiumStatus": 0
+    },
+    {
+      "email": "singhjapneet250@gmail.com",
+      "password": "12345",
+      "name": "japneet",
+      "premiumStatus": 0
+    },
+    {
+      "email": "test",
+      "password": "1",
+      "name": "Japneet",
+      "premiumStatus": 0
+    },
+    {
+      "email": "samridhi@gmail.com",
+      "password": "12345",
+      "name": "Samridhi ",
+      "premiumStatus": 0
+    }
+  ]
+}

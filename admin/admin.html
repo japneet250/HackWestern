@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>mind pulse</title>
+
+
+    <link rel="stylesheet" href="adminStyle.css">
+
+        <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+</head>
+<body>
+
+    <h1>Admin Portal</h1>
+
+    <div class="flexbox-container">
+
+        <div class="flexbox-item">
+            <h2>Thoughts</h2>
+            <div id="journalEntries"></div>
+        </div>
+
+        <div class="flexbox-item">
+            <h2>Emotional State</h2>
+            <canvas id="emotionalStateChart"></canvas>
+        </div>
+
+        <div class="flexbox-item">
+            <h2>Work-Life Balance</h2>
+            <canvas id="workLifeBalance"></canvas>
+        </div>
+
+        <div class="flexbox-item">
+            <h2>Physical Well-Being</h2>
+            <canvas id="physicalWellBeing"></canvas>
+        </div>
+
+        <div class="flexbox-item">
+            <h2>Connection to Others</h2>
+            <canvas id="connectionToOthers"></canvas>
+        </div>
+
+        <div class="flexbox-item">
+            <h2>mindfulness practices</h2>
+            <canvas id="mindfulnessPractices"></canvas>
+        </div>
+
+    </div>
+
+    <div class="admin-login">
+        <a href="../payment/payment.html"> upgrade to premium</a>
+    </div>
+
+    <script src="adminScript.js"></script>
+</body>
+</html>
