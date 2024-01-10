@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 8001;
 const path = require('path');
 const fs = require("fs");
 var PDF="WHITE.PDF";
-const hostname = '0.0.0.0';
+
 
 const bodyParser = require('body-parser');
 
